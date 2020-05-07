@@ -8,3 +8,7 @@ Table of periodic elements
 3. Search for an elemt
 4. Modify an element
 5. Delete an element
+
+## Dependencies
+* Compiler with C++11 support
+* (Optional) GNU Make
