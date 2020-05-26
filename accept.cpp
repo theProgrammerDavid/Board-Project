@@ -80,7 +80,7 @@ void accept::getString(char *ch)
 
     cout<<"Enter : ";
    // std::cin>>ch;
-   gets(ch);
+   scanf("%[^\n]",ch);
 
 }
 void accept::getChar(char ch)
