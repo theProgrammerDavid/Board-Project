@@ -23,7 +23,7 @@ void searchModify::searchDeleteElement(element *ele, int option)
         fh.readElementFromFile(&test);
 
 
-        if(strcmpi(test.getName(), ele->getName())  == 0)
+        if(strcmp(test.getName(), ele->getName())  == 0)
         {
             found=1;
             if(option == 1)
