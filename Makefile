@@ -9,3 +9,4 @@ target: dependencies
 	
 clean:
 	del *.o || rm *.o
+	del *.data || rm *.data
